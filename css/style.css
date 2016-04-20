@@ -8,11 +8,12 @@ ul {
 }
 
 .title {
-	margin: 1em 0;
+	margin: 2em 0;
 }
 
 .quiz-img {
 	padding-left: 10%;
+	padding-right: 5%;
 }
 
 .question-text {
@@ -20,12 +21,19 @@ ul {
 	margin-bottom: 1em;
 }
 
+.answers label {
+	margin-left: .5em;
+	font-weight: normal;
+}
+
 .answers .btn {
-	margin-top: 1em;
+	margin-top: .5em;
+	margin-left: 2em;
 }
 
 .answers li {
-	margin-bottom: 1em;
+	margin-left: 2em;
+	margin-bottom: .5em;
 }
 
 .progress-container {
